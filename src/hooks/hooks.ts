@@ -6,7 +6,7 @@ export const useAppSelector: TypedUseSelectorHook<Reducer> = useSelector;
 interface ObserverProps {
   target: React.RefObject<HTMLElement>;
   onIntersect: IntersectionObserverCallback;
-  root?: null; // ��차할 부모 요소, null일 경우 document
+  root?: null; // ��차할 부모 요소, nulsl일 경우 document
   rootMargin?: string; // root와 target이 ��지하는 여��의 ��리
   threshold?: number; // intersectionRatio가 threshold 이상일 때 callback이 실행된다.
 }
